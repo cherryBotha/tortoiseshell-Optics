@@ -1,0 +1,216 @@
+html {
+	font-size: 18px;
+}
+body {
+	font-family: Helvetica;
+}
+
+
+/* Background Image Of The Head In The Desktop View */
+.background {
+	background-image: url("../images/glasses-bg.png");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 30rem;
+}
+
+/* Uppermost header style Rules */
+.headPage {
+	display: inline-flex;
+	align-items: center;
+	margin-top: 1rem;
+	margin-left: 10.5rem;
+	font-weight: bold;
+	background-color: cadetblue;
+	color: white;
+	width: 990px;
+	height: 3rem;
+}
+
+/* Head Logo Style Rules */
+.headPage img {
+	height: 1.5rem;
+	margin-left: 2rem;
+	margin-right: 1rem;
+}
+
+/* Nav Of The Head Section */
+.headPage .nav {
+	margin-left: 17.60rem;
+}
+
+/* Nav Child Elements */
+.headPage span {
+	padding-left: 2rem;
+}
+
+/* White Box Inside Of The Header */ 
+.whiteBox {
+	display: flex;
+	align-items: center;
+	padding-left:5rem;
+	margin-top: 10rem;
+	margin-left: 39rem;
+	font-weight: bold;
+	background-color: white;
+	color: black;
+	font-size: 2rem;
+	height: 5.50rem;
+	width: 25rem;
+}
+
+/* Icons Beneeath The Header */
+.icons {
+	display: flex;
+	justify-content: space-around;
+	padding: 2.89rem;
+	margin: 0 auto;
+}
+
+/* Icons Child Div's */
+.icon {
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+    text-align: center;
+}
+
+/* Paper Icon */
+.paper img {
+	height: 5rem;
+	padding-bottom: 1rem;
+}
+
+/* ruler Icon */
+.ruler img {
+	height: 3rem;
+	padding-bottom: 2.95rem;
+}
+
+/* Truck Icon */
+.truck img {
+	height: 4rem;
+	padding-bottom: 2rem;
+}	
+
+/* Last Part Of The Website Before The Footer...Info...*/
+.info {
+	display: flex;
+	justify-content: space-around;
+	padding: 2rem;
+	margin: 0 auto;
+
+}
+
+/* Philosophy And Appoinments Info */
+.philosophy, .appointments{
+	display: flex;
+	flex-direction:column;
+	width: 30%;
+}
+
+/* Philosophy Child */	
+.philosophy span {
+	background-color: cadetblue;
+	color: white;
+	font-size: 1.30rem;
+	font-weight: bold;
+	padding-top: 1.50rem;
+	padding-left: 0.90rem;
+	margin-bottom: 1rem;
+	height: 3rem;
+}
+
+/* Appoinments Child */
+.appointments span {
+	background-color: cadetblue;
+	color: white;
+	font-size: 1.30rem;
+	font-weight: bold;
+	padding-top: 1.50rem;
+	padding-left: 0.90rem;
+	margin-bottom: 1rem;
+	height: 3rem;
+}
+
+/* Footer Section Of The Page */
+.desktopMedia footer {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 8rem;
+	color: black;
+	width: 1130px;
+	height: 9rem;
+	background-color: azure;
+}
+
+/* Footer Logo */
+.desktopMedia #img {
+	margin-left: 3.50rem;
+	margin-right: 1rem;
+	height: 1.5rem;
+}
+
+/* Uppermost header style Rules */
+.mobileMedia .headPage {
+	display: inline-flex;
+	align-items: center;
+	font-weight: bold;
+	background-color: cadetblue;
+	color: white;
+	margin-left: 0;
+	margin-top: 0;
+	width: 100%;
+	height: 3rem;
+}
+
+/* White Box Inside Of The Header */ 
+.mobileMedia .whiteBox {
+	display: flex;
+	align-items: center;
+	padding-left:5rem;
+	margin-top: 10rem;
+	font-weight: bold;
+	background-color: white;
+	color: black;
+	font-size: 2rem;
+	height: 5.50rem;
+	width: 100%;
+}
+
+/* Nav Child Elements */
+.mobileMedia span {
+	margin-left: 10rem;
+}
+
+
+
+/*Desktop Media Query*/
+@media only screen and (min-width: 1020px) {
+	.tabletMedia {
+		display: none;
+	}
+	.mobileMedia {
+		display: none;
+	}
+}
+
+/*Tablet Media Query*/
+@media only screen and (max-width: 1020px) {
+	.desktopMedia {
+		display: none;
+	}
+}	
+
+/* Mobile Media Query */
+
+
+
+
+
+
+
+
+
+
